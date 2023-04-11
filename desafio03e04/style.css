@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #000000;
+        height: 100vh;
+    background: rgba(0, 0, 0, .45) url("imersaodevDesafio.png");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+    top: 25%;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  .planetas {
+    /*position:relative;
+    bottom:300px;*/
+    width: 200px;
+  }
+
+  
+  /*.planetas {
+    width: 500px;
+    max-height: 500px !important;
+  }o !important prioriza o último comando lido.
